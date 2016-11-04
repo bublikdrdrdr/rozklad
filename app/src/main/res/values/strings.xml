@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">Rozkład</string>
+    <string name="settings_button">Settings</string>
+    <string name="close_button">Close</string>
+    <string name="settings_activity_title">Settings</string>
+    <string name="menu_item_lists">List manager</string>
+    <string name="menu_item_editor">List editor</string>
+    <string name="menu_item_styles">Style editor</string>
+    <string name="menu_item_about">About</string>
+    <string name="item_page">Page</string>
+    <string name="item_label">Label</string>
+    <string name="item_block">Block</string>
+    <string name="item_line">Line</string>
+    <string name="no_name_item">No name</string>
+
+    <string name="currentStateLabelTextPages">Pages:</string>
+    <string name="currentStateLabelTextBlocks">Blocks:</string>
+    <string name="currentStateLabelTextLines">Lines:</string>
+    <string name="currentStateLabelTextLabels">Labels:</string>
+
+
+    <!-->
+        EDITOR MESSAGES
+    -->
+    <string name="WRONG_DAY_OF_WEEK">Wrong day of week (you can choose 1-7)</string>
+    <string name="BAD_COLOR_FORMAT">Bad color format. Please, use color editor</string>
+    <string name="BAD_ID_FORMAT">Bad image ID format. Choose one from list</string>
+    <string name="ITEM_IS_NOT_CHOSEN">Choose item from list or add one</string>
+    <string name="EDIT_MODE_IS_ACTIVE">Edit mode is active. If you want do this, close this mode</string>
+    <string name="MOVING_MODE_IS_ACTIVE">Moving mode is active. If you want do this, close this mode</string>
+    <string name="LABELS_WILL_BE_SORTED">Labels will be sorted by align (first left, next center and right in the end)</string>
+    <string name="BAD_NUMBER_FORMAT">Bad number format. It must be an unsigned integer</string>
+    <string name="LABEL_ALIGN_IS_NOT_CHOSEN">Choose label align</string>
+    <string name="BAD_TEXT_SIZE_FORMAT">Bad text size format. It must be an unsigned real number. Example: 10.5</string>
+    <!-- вот тут хз, real number - дійсне число (дробове) TODO: check this message-->
+    <string name="RELAUNCH_APPLICATION">To watch changes relaunch application</string>
+    <string name="CHOOSE_A_PAGE">Choose one page</string>
+    <string name="CLICK_ONE_MORE_TIME">Press once again to close editor</string>
+
+
+</resources>

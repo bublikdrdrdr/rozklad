@@ -3,8 +3,10 @@ package com.bublik.rozklad;
 import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
+import android.os.Environment;
 import android.support.v7.app.AppCompatActivity;
 import android.util.DisplayMetrics;
+import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
@@ -27,7 +29,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     MySettings mySettings;
-    Settings_v2 settings_v2;
+    public static Settings_v2 settings_v2;
     public static MyData myData;
     MyRender myRender;
     private void createClasses()

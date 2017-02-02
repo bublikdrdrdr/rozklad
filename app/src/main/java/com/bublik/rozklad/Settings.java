@@ -41,7 +41,7 @@ public class Settings extends AppCompatActivity {
 
        items[0] = (LinearLayout) findViewById(R.id.listsManager);
        items[1] = (LinearLayout) findViewById(R.id.listEditor);
-       items[2] = (LinearLayout) findViewById(R.id.styleEditor);
+       items[2] = (LinearLayout) findViewById(R.id.importExport);
        items[3] = (LinearLayout) findViewById(R.id.aboutItem);
 
        for (int i = 0; i < items.length; i++)
@@ -84,6 +84,9 @@ public class Settings extends AppCompatActivity {
                 case R.id.aboutItem:
                     openAbout();
                     break;
+                case R.id.importExport:
+                    openImport();
+                    break;
                 case R.id.listEditor:
                     openEditor();
                     break;
@@ -102,6 +105,13 @@ public class Settings extends AppCompatActivity {
     {
         somethingChanged = true;
         Intent intent = new Intent(this, ListManager.class);
+        startActivity(intent);
+    }
+
+    private void openImport()
+    {
+        somethingChanged = true;
+        Intent intent = new Intent(this, ImportExport.class);
         startActivity(intent);
     }
 

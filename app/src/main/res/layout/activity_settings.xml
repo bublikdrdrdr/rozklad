@@ -85,7 +85,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:clickable="true"
-                android:id="@+id/styleEditor"
+                android:id="@+id/importExport"
                 android:paddingTop="5dp"
                 android:paddingBottom="5dp" >
 
@@ -93,14 +93,14 @@
                     android:layout_width="50dp"
                     android:layout_height="50dp"
                     android:id="@+id/imageView2"
-                    android:src="@drawable/ic_brush_black_48dp"
+                    android:src="@drawable/ic_import_export_black_48dp"
                     android:layout_marginLeft="20dp" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textAppearance="?android:attr/textAppearanceLarge"
-                    android:text="@string/menu_item_styles"
+                    android:text="@string/menu_item_import"
                     android:id="@+id/textView2"
                     android:layout_gravity="center_vertical"
                     android:layout_marginLeft="20dp"

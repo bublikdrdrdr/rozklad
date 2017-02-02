@@ -6,12 +6,14 @@
     <string name="menu_item_lists">List manager</string>
     <string name="menu_item_editor">List editor</string>
     <string name="menu_item_styles">Style editor</string>
+    <string name="menu_item_import">Import/export</string>
     <string name="menu_item_about">About</string>
     <string name="item_page">Page</string>
     <string name="item_label">Label</string>
     <string name="item_block">Block</string>
     <string name="item_line">Line</string>
     <string name="no_name_item">No name</string>
+    <string name="import_activity_title">Import/export</string>
 
     <string name="currentStateLabelTextPages">Pages:</string>
     <string name="currentStateLabelTextBlocks">Blocks:</string>
@@ -36,6 +38,7 @@
     <string name="RELAUNCH_APPLICATION">To watch changes relaunch application</string>
     <string name="CHOOSE_A_PAGE">Choose one page</string>
     <string name="CLICK_ONE_MORE_TIME">Press once again to close editor</string>
+    <string name="import_label">Import</string>
 
 
 </resources>
